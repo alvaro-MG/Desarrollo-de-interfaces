@@ -1,6 +1,6 @@
 # Desarrollo-de-interfaces
 
-_En este repositorio ire subiendo tossos los trabajos de desarrollo de interfaces._
+_En este repositorio ire subiendo todos los trabajos de desarrollo de interfaces._
 
 ## Comenzando 🚀
 
