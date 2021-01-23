@@ -1,0 +1,156 @@
+
+/* 1. Cuerpo del documento */
+
+body{
+    background-image: url('fondo.jpg');
+    background-repeat: repeat;
+    text-align : justify;
+}
+
+/* 2. Hipervínculos */
+ 
+.enlace a:link{
+    text-decoration: none;
+    color: #F6D155;
+}
+.enlace a:visited{
+    text-decoration: none;
+    color: #F6D155;
+}
+.enlace a:hover{
+    text-decoration: underline;
+    color: #F6D155;
+}
+.enlace a:active{
+    text-decoration: none;
+    color: #F6D155;
+}
+.Índice{
+    text-align: center;
+}
+
+/* 3. Cabecera de la página */
+
+.top{
+    background: #223A5E;
+    border-bottom: 5px solid grey;
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+    font-family: Versalita;
+    font-weight: bold;
+}
+.top:first-letter{
+    font-size: 1.5em;
+}
+
+/* 4. Panel izquierdo de navegación */
+
+.enlace{ 
+    width: 15%; 
+    background-color: #223A5E;        
+    color:white;
+    float:left;            
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: initial;
+} 
+
+/* 5. Artículo principal de la página */
+
+.general{
+    margin-left: 20%;
+    margin-right: 15%;
+}
+.titulo1{
+    color: brown;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.titulo2{
+    color: brown;
+    font-style: oblique;
+}
+
+/* 6. Tablas */
+
+.tablas{
+    text-align: center;
+    margin: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+.t0{
+    background-color: #223A5E;
+    color: white;
+}
+.t1{
+    background-color: #D49F75;
+}
+.t2{
+    background-color: #C48F65;
+}
+
+/* 7. Imágenes */
+
+.img{
+    border: grey 3px solid;
+    display:block;
+    margin: auto;    
+}
+.i1{
+    margin-left: 10%;
+    border: grey 3px solid;
+
+}
+.i2{
+    margin-left: 10%;
+    border: grey 3px solid;
+}
+.i3{
+    margin-left: 10%;
+    border: grey 3px solid;
+}
+.leyenda{
+    text-align: center;
+    font-style: oblique;
+}
+
+/* 8. Bloque imágenes */
+
+.bloqueIMG{
+    margin-top: 2em;
+}
+
+/* 9. Pie de la página */
+
+.pie{
+    border-top: 5px solid grey;
+    text-align: center;
+    padding: 1em;
+    background-color: #223A5E;
+    color: white;
+}
+
+.pie a:link{
+    text-decoration: none;
+    color: #F6D155;
+}
+.pie a:visited{
+    text-decoration: none;
+    color: #F6D155;
+}
+.pie a:hover{
+    text-decoration: underline;
+    color: #F6D155;
+}
+.pie a:active{
+    text-decoration: none;
+    color: #F6D155;
+}
